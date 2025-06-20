@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulador de Reação - 1ª Ordem</title>
+  <link rel="stylesheet" href="simReacao.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulador de Reação de 1ª Ordem</h1>
+
+    <form id="formulario">
+      <label>Concentração Inicial (mol/L):</label>
+      <input type="number" id="c0" step="any" required />
+
+      <label>Constante Cinética k (1/h):</label>
+      <input type="number" id="k" step="any" required />
+
+      <label>Tempo Total (h):</label>
+      <input type="number" id="tempo" required />
+
+      <button type="submit">Simular</button>
+    </form>
+
+    <canvas id="grafico"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="simReacao.js"></script>
+</body>
+</html>

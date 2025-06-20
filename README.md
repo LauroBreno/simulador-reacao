@@ -1,6 +1,6 @@
 Simulador de Reação de 1ª Ordem
 
-Uma aplicação web que simula a cinética de uma reação química irreversível de primeira ordem.
+Simula a cinética de uma reação química irreversível de primeira ordem.
 
 ## Fórmula Utilizada
 

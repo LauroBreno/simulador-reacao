@@ -15,7 +15,7 @@ document.getElementById("formulario").addEventListener("submit", function (e) {
     }
   
     // Enviar para PHP
-    fetch("php/salvar_simulacao.php", {
+    fetch("..php/salvar_simulacao.php", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ c0, k, tempo })
